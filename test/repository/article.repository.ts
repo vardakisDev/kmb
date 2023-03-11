@@ -23,7 +23,7 @@ const getArticleWithFilter = (
   if (searchKey && searchKey.length > 0) {
     articleData = handleSearchFilter(articleData, searchKey);
   }
-  switch (sortType.toUpperCase()) {
+  switch (sortType?.toUpperCase() ?? "") {
     case "NEW":
       articleData = newFirst(articleData);
       break;
