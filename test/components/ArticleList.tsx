@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import Article from "@/model/article.model";
 import { PageWrapper } from "@/model/pageWrapper.model";
 import { useRouter } from "next/router";

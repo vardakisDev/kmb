@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Article from "@/model/article.model";
 
 export default function ArticleCard({ article }: { article: Article }) {
